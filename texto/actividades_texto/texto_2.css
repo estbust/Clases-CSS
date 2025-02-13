@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 32px;
+    font-variant: small-caps;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    font-size: 24px;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li strong {
+    font-weight: normal;
+    color: #333;
+    font-size: 1.2em;
+}

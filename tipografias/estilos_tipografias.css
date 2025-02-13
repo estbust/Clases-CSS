@@ -1,0 +1,37 @@
+
+
+/* El primer párrafo tiene una tipografia segura Verdana (sans-serif) */
+p:first-of-type {
+  font-family: Verdana, sans-serif;
+  font-size: 1.5em;
+}
+
+/* El segundo párrafo tiene una tipografia segura Didot (serif) */
+p:nth-of-type(2) {
+  font-family: Didot, serif;
+  font-size: 1.5em;
+}
+
+/* El tercer párrafo tiene una tipografia segura FreeMono (monospace) */
+p:nth-of-type(3) {
+  font-family: FreeMono, monospace;
+  font-size: 1.5em;
+}
+
+/* El cuarto párrafo tiene una tipografia importada desde Google Fonts Roboto 400 dentro de la etiqueta style */
+p:nth-of-type(4) {
+    font-family: "Bebas Neue", serif;
+  font-weight: 400;
+}
+
+/* El quinto párrafo tiene una tipografia importada desde Google Fonts Akronim y llamada con la instruccion @font-face. El tamaño de fuente 24px. */
+p:nth-of-type(5) {
+    font-family: "Akronim", serif;
+  font-size: 24px;
+}
+
+/* El sexto párrafo tiene una tipografia importada desde Google Fonts Monserrat 400 mediante un <link> */
+p:nth-of-type(6) {
+    font-family: "Montserrat", serif;
+  font-size: 1.5em;
+}
