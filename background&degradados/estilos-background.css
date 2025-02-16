@@ -1,0 +1,126 @@
+.banderas {
+    background-color: grey;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.banderas div {
+    width: 26%;
+    aspect-ratio: 1.4;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 20px;
+}
+
+.colombia {
+    background: linear-gradient(to bottom, yellow 50%, blue 50% 75%, red 75%);
+}
+
+.francia {
+    background: linear-gradient(to right, red 33.3%, white 33.3% 66.6%, rgb(8, 8, 63) 66.6%);
+}
+
+.italia {
+    background: linear-gradient(to right, green 33.3%, white 33.3% 66.6%, red 66.6%);
+}
+
+.alemania {
+    background: linear-gradient(black 33.3%, red 33.3% 66.6%, yellow 66.6%);
+}
+
+.japon {
+    background: radial-gradient(circle, red 30%, white 30%);
+}
+
+.polonia {
+    background: linear-gradient(white 50%, red 50%);
+}
+
+.myheader {
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 20px 10px;
+    background-color: rgb(45, 127, 221);
+    background-image: url(../balloons.jpg);
+    background-position: top right;
+    background-size: 50%;
+}
+
+.myheader h2 {
+    background-color: rgba(0,0,0,.5);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.myheader2 {
+    width: 200px;
+    border: 5px solid rgb(0, 204, 255);
+    padding: 30px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../star.png), url(../star.png), url(../star.png), url(../star.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%, 95% 15%, 95% 50%, 95% 85%;
+    background-size: 25px, 25px, 25px 25px;
+}
+
+.myheader2 h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.pagina {
+    background-color: rgb(224, 219, 219);
+    border: 1px solid rgba(39, 36, 36, 0.582);
+    padding: 10px;
+}
+
+.pagina span:nth-of-type(2) {
+    float: right;
+}
+
+.pocision {
+    min-height: 80vh;
+    position: relative;
+    background-color: yellow;
+}
+
+.left {
+    width: 300px;
+    padding: 20px;
+    background-color: grey;
+    border: 4px dashed black;
+}
+
+.right {
+    width: 300px;
+    padding: 20px;
+    background-color: grey;
+    border: 4px dashed black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: grey;
+}
+
+.center {
+    width: 60%;
+    text-align: center;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
