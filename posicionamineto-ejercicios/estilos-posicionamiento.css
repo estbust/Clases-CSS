@@ -1,0 +1,190 @@
+.container {
+    width: 500px;
+    height: 300px;
+    background-color: gainsboro;
+    position: relative;
+}
+
+.container.ejercicio1 .rojo {
+    width: 30%;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.container.ejercicio1 .azul {
+    width: 30%;
+    height: 30px;
+    background-color: blue;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.container.ejercicio1 .amarillo {
+    width: 30%;
+    height: 60px;
+    background-color: yellow;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.container.ejercicio1 .verde {
+    width: 30%;
+    height: 60px;
+    background-color: green;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.container.ejercicio2 .rojo {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+.container.ejercicio2 .azul {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.container.ejercicio2 .amarillo {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.container.ejercicio2 .verde {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+}
+
+.container.ejercicio3 .rojo {
+    width: 40%;
+    height: 70px;
+    background-color: red;
+    position: absolute;
+    bottom: 50px;
+    right: 150px;
+    z-index: 3;
+}
+
+.container.ejercicio3 .azul {
+    width: 40%;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 20%;
+    z-index: 1;
+}
+
+.container.ejercicio3 .amarillo {
+    width: 130px;
+    height: 130px;
+    background-color: yellow;
+    position: absolute;
+    top: 80px;
+    right: 90px;
+    z-index: 3;
+}
+
+.container.ejercicio3 .verde {
+    width: 110px;
+    height: 100px;
+    background-color: green;
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    z-index: 3;
+}
+
+.container.ejercicio4 .rojo {
+    width: 75px;
+    height: 140px;
+    background-color: red;
+    position: absolute;
+    bottom: 60px;
+    right: 225px;
+}
+
+.container.ejercicio4 .azul {
+    width: 75px;
+    height: 140px;
+    background-color: blue;
+    position: absolute;
+    bottom: 60px;
+    right: 150px;
+}
+
+.container.ejercicio4 .amarillo {
+    width: 75px;
+    height: 140px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 60px;
+    left: 125px;
+}
+
+.container.ejercicio4 .verde {
+    width: 75px;
+    height: 140px;
+    background-color: green;
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+}
+
+.container.ejercicio5 .rojo {
+    width: 80%;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+
+}
+
+.container.ejercicio5 .azul {
+    width: 15%;
+    height: 260px;
+    background-color: blue;
+    position: absolute;
+    top: 25px;
+    left: 20%;
+    z-index: 2;
+
+}
+
+.container.ejercicio5 .amarillo {
+    width: 80%;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.container.ejercicio5 .verde {
+    width: 15%;
+    height: 260px;
+    background-color: green;
+    position: absolute;
+    top: 25px;
+    right: 20%;
+    z-index: 2;
+}
