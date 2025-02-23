@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            background: black;
+            color: white;
+            text-align: right;
+            padding: 10px;
+            margin: 0;
+        }
+        .cards {
+            display: flex;
+            justify-content: space-between;
+        }
+        .card {
+            width: 30%;
+            background: #e0f7fa;
+            padding: 15px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card:nth-child(2) {
+            background: #dcedc8;
+        }
+        .card:nth-child(3) {
+            background: #bbdefb;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card h2 {
+            font-size: 1.2em;
+            color: #004d40;
+        }
+        .card p {
+            font-size: 0.9em;
+            color: #333;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Viajes</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="../polonia.jpg" alt="Polonia">
+                <h2>Polonia, un país por descubrir</h2>
+                <p>Dignissim placerat vel aenean porta, magna ac scelerisque facilisis, rhoncus est...</p>
+            </div>
+            <div class="card">
+                <img src="../oporto.jpg" alt="Oporto">
+                <h2>Un paseo por el viejo Oporto</h2>
+                <p>Cras quis mattis. Elementum, lectus magna, amet dis dis pulvinar scelerisque...</p>
+            </div>
+            <div class="card">
+                <img src="../malta.jpg" alt="Malta">
+                <h2>Malta, la isla mediterránea por conocer</h2>
+                <p>Dignissim placerat vel aenean porta, magna ac scelerisque facilisis.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
