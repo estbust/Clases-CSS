@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+header.header {
+    background-color: #63d673;
+    padding: 10px;
+}
+
+figure.logo {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+figure.logo img {
+    max-width: 150px;
+    padding: 10px;
+}
+
+nav.menu {
+    background-color: #077018;
+    padding: 10px 20px ;
+}
+
+nav.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav.menu ul li+li::before {
+    content: " | ";
+    color: white;
+}
+
+nav.menu ul a {
+    color: white;
+    text-decoration: underline;
+    padding: 10px 20px;
+}
+
+nav.menu ul a:hover {
+    background-color: #63d673;
+    color: black;
+}
+
+section.banner img {
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+article.housetype {
+    padding: 20px;
+    border: 5px solid #63d673;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+article.housetype h2 {
+    color: #000000;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+article.housetype i {
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+article.housetype p {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.housetype.rural {
+    border-color: #8fa512;
+    background-color: #fbff01;
+}
+
+.housetype.rural i {
+    color: #8fa512;
+}
+
+.housetype.camping {
+    border-color: #1b5e0e;
+    background-color: #51ff00;
+}
+
+.housetype.camping i {
+    color: #1b5e0e;
+}
+
+.housetype.hotel {
+    border-color: rgb(10, 16, 105);
+    background-color: #555fbd;
+}
+
+.housetype.hotel i {
+    color: rgb(10, 16, 105);
+}
+
+aside.review {
+    border-top: 4px solid black;
+    background-color: #ccc;
+    border-bottom: 4px solid black;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+aside.review h2 {
+    color: black;
+    font-size: 1.5em;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+aside.review p {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+aside.review header {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+aside.review i.fa-user {
+    font-size: 40px;
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+aside.review i.fa-user-tie {
+    font-size: 40px;
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+aside.review i.fa-star {
+    color: yellow;
+}
+
+aside.review i.fa-star:hover {
+    color: black;
+    cursor: pointer;
+}
+
+aside.review.p {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
