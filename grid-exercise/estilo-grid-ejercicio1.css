@@ -1,0 +1,73 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    background-image: url("../grid-exercise/imgs/topography.jpeg"), linear-gradient(to right, rgba(167, 70, 70, 0.8) 50%, rgba(139, 16, 133, 0.8));
+    padding: 10px;
+}
+
+[class*="box-"] {
+    background-color: rgba(255, 136, 0, 0.8);
+    border: 3px solid rgba(61, 40, 8, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-6 {
+    background-color: rgba(45, 61, 151, 0.8);
+    grid-column: 1 / span 6;
+    grid-row: 2;
+}
+
+.box-12 {
+    background-color: rgba(52, 42, 196, 0.8);
+    grid-column: 1 / span 6;
+    grid-row: 3;
+}
+
+.box-8 {
+    background-color: rgba(214, 27, 27, 0.8);
+    grid-column: span 2;
+}
+
+.box-9 {
+    background-color: rgba(101, 202, 114, 0.8);
+    grid-row: span 2;
+}
+
+.box-16 {
+    background-color: rgba(236, 48, 48, 0.8);
+    grid-column: span 2;
+}
+
+.box-18 {
+    background-color: rgba(49, 155, 39, 0.8);
+    grid-column: 5 / span 6;
+    grid-row: 4 / span 2;
+}
+
+.box-24 {
+    background-color: rgba(230, 28, 28, 0.8);
+    grid-column: span 2;
+}
+
+.box-30 {
+    background-color: rgba(70, 59, 211, 0.8);
+    grid-column: 5 / span 6;
+}
+
+.box-27 {
+    background-color: rgba(47, 172, 42, 0.8);
+    grid-row: span 2;
+}
+
+.box-32 {
+    background-color: rgba(236, 48, 48, 0.8);
+    grid-column: span 2;
+}
