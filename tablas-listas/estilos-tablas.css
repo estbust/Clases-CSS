@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+table.example1 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+table.example1 th, table.example1 td {
+    color: #000;
+    font-weight: bold;
+    padding: 15px 70px;
+    text-align: center;
+    font-weight: normal;
+}
+
+table.example1 th {
+    background-color: #000000;
+    color: white;
+}
+
+table.example1 tr:nth-child(odd) {
+    background-color: #676d6be8;
+}
+
+
+
+
+table.example2 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+
+}
+
+table.example2 th, table.example2 td {
+    color: #000;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+table.example2 th {
+    background-color: #0f4418;
+    color: white;
+    text-align: left;
+}
+
+table.example2 tr:nth-child(even) {
+    background-color: #c2cfcce8;
+    color: #23943f;
+}
+
+table.example3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-spacing: 0;
+    border: 2px solid #000000;
+}
+
+table.example3 thead {
+    background-color: #000000;
+    color: white;
+    text-transform: uppercase;
+}
+
+table.example3 th, table.example3 td {
+    padding: 10px 15px;
+}
+
+table.example3 tbody tr:nth-child(even) {
+    background-color: #676d6be8;
+}
+
+table.example3 tbody th {
+    background-color: #2d4b8be8;
+    color: white;
+}
+
+table.example3 tbody tr:nth-child(even) th {
+    background-color: #271f94e8;
+    color: white;
+}
+
+table.example3 td {
+    text-align: center;
+}
+
+table.example3 td.hight {
+    background-color: #d1c736;
+    font-weight: bold;
+}
+
+
+table.example9 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-spacing: 0;
+}
+
+table.example9 thead th {
+    font-weight: normal;
+}
+
+table.example9 th, table.example9 td {
+    padding: 20px 50px;
+}
+
+table.example9 tbody tr:nth-child(odd) {
+    background-color: #8d9491e8;
+}
+
+table.example9 a.btn {
+    background-color: #CCC;
+    display: inline-block;
+    padding: 6px 15px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+table.example9 a.btn:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+table.example9 a.btn.btn--progress {
+    background-color: green;
+    color: #FFF;
+}
+
+table.example9 a.btn.btn--progress:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+table.example9 a.btn.btn--open {
+    background-color: yellow;
+    color: #FFF;
+}
+
+table.example9 a.btn.btn--open:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+table.example9 a.btn.btn--onhold {
+    background-color: red;
+    color: #FFF;
+}
+
+table.example9 a.btn.btn--onhold:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+
+
+
+table.example7 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-spacing: 0;
+    border: 2px solid #000000;
+}
+
+table.example7 thead th {
+    font-weight: normal;
+    background-color: purple;
+    color: white;
+}
+
+table.example7 th, table.example7 td {
+    padding: 20px 50px;
+    font-size: 12px;
+    text-align: center;
+}
+
+table.example7 a.btn {
+    background-color: purple;
+    display: inline-block;
+    padding: 5px 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+table.example7 a.btn:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+table.example7 tbody th {
+    background-color: #a3b5dbe8;
+    color: white;
+}
+
+table.example7 tbody td:nth-child(odd) {
+    background-color: #8c8b99e8;
+    color: white;
+}
