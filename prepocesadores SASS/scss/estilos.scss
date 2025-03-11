@@ -1,0 +1,33 @@
+$color-red: rgb(128, 0, 0);
+$color-green: green;
+$text-normal-size: 18px;
+
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+
+        li {
+            margin-left: 10px;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+
+        a {
+            color: $color-red;
+            font-size: $text-normal-size;
+            &:hover {
+                color: $color-green;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,24 @@
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+header ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+header ul a {
+  color: rgb(128, 0, 0);
+  font-size: 18px;
+}
+header ul a:hover {
+  color: green;
+}/*# sourceMappingURL=estilos.css.map */
